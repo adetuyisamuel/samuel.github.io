@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .todo-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input#taskInput {
+    width: 70%;
+    padding: 0.5rem;
+    margin-right: 1%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button#addTaskBtn {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button#addTaskBtn:hover {
+    background: #555;
+  }
+  
+  ul#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  ul#taskList li {
+    background: #f4f4f4;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul#taskList li button {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  ul#taskList li button:hover {
+    background: darkred;
+  }
+  footer{
+    text-align: center;
+  }
